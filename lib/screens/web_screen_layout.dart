@@ -54,7 +54,13 @@ class WebLayoutScreen extends StatelessWidget {
                           color: Colors.grey,
                         ),
                       ),
-                      
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(
+                          Icons.attach_file,
+                          color: Colors.grey,
+                        ),
+                      ),
                       Expanded(
                         child: Padding(
                           padding: const EdgeInsets.only(
