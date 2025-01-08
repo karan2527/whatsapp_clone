@@ -28,7 +28,17 @@ class WebLayoutScreen extends StatelessWidget {
           ),
           Container(
             width: MediaQuery.of(context).size.width * 0.75,
-            
+            decoration: const BoxDecoration(
+              border: Border(
+                left: BorderSide(color: dividerColor),
+              ),
+              image: DecorationImage(
+                image: AssetImage(
+                  "assets/backgroundImage.png",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
             child: Column(
               children: [
                 const ChatAppBar(),
