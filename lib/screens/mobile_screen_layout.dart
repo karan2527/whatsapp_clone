@@ -58,7 +58,10 @@ class MobileLayoutScreen extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           backgroundColor: tabColor,
-          
+          child: const Icon(
+            Icons.comment,
+            color: Colors.white,
+          ),
         ),
       ),
     );
